@@ -19,15 +19,6 @@ function Header() {
         if (seconds === 18) {
           // Perform a backend reload here
           fetch('https://quadbtech-nodejs-assignment-backend.onrender.com/api/top10tickers')
-            .then(response => {
-              if (response.ok) {
-                // Reload the window once backend is ready
-                window.location.reload();
-              } else {
-                console.error('Backend reload failed');
-                // Handle error case if needed
-              }
-            })
             .catch(error => {
               console.error('Error during backend reload:', error);
               // Handle fetch error if needed

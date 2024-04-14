@@ -4,7 +4,7 @@ function Data() {
   const [tickers, setTickers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/dbtickers")
+    fetch("https://quadbtech-nodejs-assignment-backend.onrender.com/api/dbtickers")
       .then((response) => response.json())
       .then((data) => {
         setTickers(data);

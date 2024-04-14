@@ -18,7 +18,7 @@ function Header() {
         // Check if 10 seconds are remaining
         if (seconds === 7) {
           // Perform a backend reload here
-          fetch('https://quadb-tech-nodejs-assignment-backend.vercel.app/api/top10tickers')
+          fetch('https://quadb-tech-nodejs-assignment-backend-sigma.vercel.app/api/top10tickers')
             .catch(error => {
               console.error('Error during backend reload:', error);
               // Handle fetch error if needed

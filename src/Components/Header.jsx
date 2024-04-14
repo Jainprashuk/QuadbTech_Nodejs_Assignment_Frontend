@@ -45,7 +45,7 @@ function Header() {
       id="dropdownHoverButton"
       onMouseEnter={toggleDropdown}
       onMouseLeave={toggleDropdown}
-      className="text-white bg-gray-600 hover:bg-gray-800 font-medium rounded-xl text-sm px-3 py-1 text-center flex gap-1 items-center"
+      className="text-white bg-gray-600 hover:bg-gray-800 font-medium rounded-xl text-sm px-5 py-2.5 text-center flex gap-1 items-center"
       type="button"
     >
       <p>INR</p>

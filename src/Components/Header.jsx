@@ -16,7 +16,7 @@ function Header() {
         setSeconds((prevSeconds) => prevSeconds - 1);
         
         // Check if 10 seconds are remaining
-        if (seconds === 18) {
+        if (seconds === 10) {
           // Perform a backend reload here
           fetch('https://quadb-tech-nodejs-assignment-backend.vercel.app/api/top10tickers')
             .catch(error => {

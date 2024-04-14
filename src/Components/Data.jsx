@@ -4,7 +4,7 @@ function Data() {
   const [tickers, setTickers] = useState([]);
 
   useEffect(() => {
-    fetch("https://quadb-tech-nodejs-assignment-backend-eomqah1n5.vercel.app/api/dbtickers")
+    fetch("https://quadb-tech-nodejs-assignment-backend.vercel.app/api/dbtickers")
       .then((response) => response.json())
       .then((data) => {
         setTickers(data);

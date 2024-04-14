@@ -16,7 +16,7 @@ function Header() {
         setSeconds((prevSeconds) => prevSeconds - 1);
         
         // Check if 10 seconds are remaining
-        if (seconds === 15) {
+        if (seconds === 18) {
           // Perform a backend reload here
           fetch('https://quadbtech-nodejs-assignment-backend.onrender.com/api/top10tickers')
             .then(response => {
